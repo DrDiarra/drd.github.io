@@ -7,3 +7,6 @@ pages:
   url: /index_layout2
 - name: Publications
   url: /publications
+
+- title: Projects
+  url: /projects/
