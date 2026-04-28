@@ -8,12 +8,12 @@
     {%- if last_2chars == "*#" or last_2chars == "#*" -%}
         {%- assign key = _key | replace: "#*", "" | replace: "*#", "" -%}
         {%- assign mark = "*<sup>#</sup>" -%}
-        {%- assign has_eq_contrib = true -%}
+        {%- assign has_eq_contrib = false -%}
         {%- assign has_corresponding = true -%}
     {%- elsif last_char == "*" -%}
         {%- assign key = _key | split: "*" | first -%}
         {%- assign mark = "*" -%}
-        {%- assign has_eq_contrib = true -%}
+        {%- assign has_eq_contrib = false -%}
     {%- elsif last_char == "#" -%}
         {%- assign key = _key | split: "#" | first -%}
         {%- assign mark = '<sup>#</sup>' -%}
