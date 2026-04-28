@@ -1,11 +1,11 @@
 ---
 title:          "Energy-Efficient Downlink Power Allocation in User-Centric Cell-Free Massive MIMO Networks Using Hybrid Deep Reinforcement Learning Algorithm.  "
-date:           2026
+date:           2026-Apr-28
 selected:       false
 pub:            "Physical Communications"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_pre:        "Submitted to "
+pub_post:       'Under review.'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2026"
 
 abstract: >-
