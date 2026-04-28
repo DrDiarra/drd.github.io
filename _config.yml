@@ -18,7 +18,8 @@ url: "https://drdiarra.github.io"
 
 # Build settings
 markdown: kramdown
-
+plugins:
+ - jekyll-email-protect
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
